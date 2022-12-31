@@ -20,6 +20,7 @@ a {
   text-decoration: none;
 }
 
+/* middle rectangle that contains form and fetched user info */
 .main-container {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -34,15 +35,16 @@ a {
   
 }
 
+/* container of form */
 .form-container {
   background-color: white;
   padding: 1rem;
   border-radius: 0.5rem;
-  width: 20rem;
+  width: 15rem;
 }
 
 .form-container form {
-  min-height: 10rem;
+  min-height: 15rem;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -74,6 +76,7 @@ input[type="submit"] {
   font-weight: bold;
 }
 
+/* container of fetched user info */
 .info-container {
   height: 70%;
   background-color: white;
@@ -86,15 +89,18 @@ input[type="submit"] {
   margin-right: 2rem;
 }
 
-.info-container .row {
+/* info container top row */
+.row {
   width: 100%;
   display: flex;
 }
 
 .info-col {
-  margin-left: 1rem;
+  margin: auto;
+  padding: 0 1rem;
 }
 
+/* image column */
 .img-col {
   min-width: 10rem;
 }
