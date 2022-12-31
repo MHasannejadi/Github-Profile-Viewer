@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("../images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.main-container {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.form-container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 20rem;
+}
+
+.form-container form {
+  min-height: 10rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input {
+  height: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.info-container {
+  height: 70%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 10rem;
+  min-width: 20rem;
+  margin-right: 2rem;
+}
+
+.info-container .row {
+  width: 100%;
+  display: flex;
+}
+
+.info-col {
+  margin-left: 1rem;
+}
+
+.img-col {
+  min-width: 10rem;
+}
+
+.img-col img {
+  width: 10rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+pre {
+  margin: 0;
+  font-family: inherit;
+}
+
+.text-center {
+  text-align: center;
+}
+

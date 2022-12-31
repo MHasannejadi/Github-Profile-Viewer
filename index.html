@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>My Github</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="info-container">
+        <div class="text-center">
+          <p id="message-text"></p>
+        </div>
+        <div class="row">
+          <div class="img-col" id="img-container"></div>
+          <div class="info-col text-center">
+            <p id="username"></p>
+            <p id="blog"></p>
+            <p id="location"></p>
+          </div>
+        </div>
+        <div class="bio-container">
+          <p id="bio"></p>
+        </div>
+      </div>
+      <div class="form-container">
+        <form onsubmit="return handleSubmit(event)">
+          <input
+            required
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+          />
+          <input type="submit" name="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
