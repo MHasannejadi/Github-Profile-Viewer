@@ -27,6 +27,7 @@ async function handleSubmit(e) {
         }
       })
       .catch(() => {
+        // network error handler
         setInitialHtml();
         document.getElementById("message-text").innerHTML = "Network Error";
       });
