@@ -85,7 +85,6 @@ input[type="submit"] {
   display: flex;
   flex-direction: column;
   min-height: 10rem;
-  min-width: 20rem;
   margin-right: 2rem;
 }
 
@@ -93,11 +92,12 @@ input[type="submit"] {
 .row {
   width: 100%;
   display: flex;
+  gap: 1rem;
 }
 
 .info-col {
   margin: auto;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 /* image column */
