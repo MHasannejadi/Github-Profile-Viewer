@@ -51,6 +51,7 @@ function setHtml(data) {
       .querySelector(".info-container")
       .appendChild(document.createElement("div"));
 
+    // use pre tag to preserve line breaks
     document.getElementById("bio").innerHTML = "<pre>" + data.bio + "</pre>";
   } else {
     document.getElementById("bio").innerHTML = "";
